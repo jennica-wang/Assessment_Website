@@ -54,28 +54,32 @@
         transform: translate(-50%, -50%);
     }
 
+    click {
+        font-size: 40px;
+    }
+
     #openIndex {
         position: absolute;
         left: 20px;
-        top: 20px;
+        top: 15px;
     }
 
     #closeIndex {
         position: absolute;
-        left: 300px;
-        top: 20px;
+        left: 260px;
+        top: 15px;
     }
 
     #openContents {
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 15px;
     }
 
     #closeContents {
         position: absolute;
         right: 20px;
-        top: 20px;
+        top: 15px;
     }
 
     .myIndex {
@@ -190,6 +194,21 @@
         #banner_img {
             width: 70vw;
             max-width: 450px;
+        }
+
+        .myIndex {
+            position: absolute;
+            text-align: center;
+            width: 300px;
+            height: 320px;
+            opacity: 20%;
+        }
+
+        .myIndex ul {
+            justify-content: inherit;
+            display: block;
+            line-height: 3;
+            padding-top: 30px;
         }
 
         #openIndex {

@@ -13,14 +13,14 @@
         <!-- Banner -->
         <div class="myBanner">
             <img src="website_banner.jpg" alt="" id="banner_img">
-            <h3 id="openIndex">≡</h3>
-            <h3 id="closeIndex">x</h3>
-            <h3 id="openContents">▼</h3>
-            <h3 id="closeContents">▲</h3>
+            <click id="openIndex" onClick="openIndexClick()">≡</click>
+            <click id="closeIndex" onClick="closeIndexClick()">x</click>
+            <click id="openContents">▼</click>
+            <click id="closeContents">▲</click>
         </div>
 
         <!-- Index -->
-        <div class="myIndex">
+        <div class="myIndex" id="myIndexID">
             <ul>
                 <li id="option1">Home</li>
                 <li id="option2">Matter</li>
@@ -31,7 +31,7 @@
         </div>
 
         <!-- Page Contents -->
-        <div class="myContents">
+        <div class="myContents" id="myContentsID">
             <h2>Page Contents</h2>
             <ol>
                 <li>Introduction to Chemistry</li>
